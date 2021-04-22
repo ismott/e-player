@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina de cadastro de jogador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <iframe src="header.html" width="100%" height="100%" frameborder="0"></iframe>
+    </header>
+    <main>
+        <section class="baner_cadastro">
+            <div class="cadastro_jogador">
+                <h1>Cadastro de Jogador</h1>
+            </div>
+        </section>
+
+        <section class="cont_form_nes">
+            <div class="cont_cad_nes">
+                <div class="n_e_s">
+                    <div class="nome_email_senha">
+                        <div>
+                            <h2>Nome do Jogador</h2>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <h2>Email</h2>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <h2>Senha</h2>
+                            <input type="password">
+                        </div>                                           
+                    </div>
+                    <div class="equipe">
+                        <h2>Equipe</h2>
+                        <input list="browsers" name="browser" id="browser">
+                            <datalist id="browsers">
+                                <option value="Edge">
+                                <option value="Firefox">
+                                <option value="Chrome">
+                                <option value="Opera">
+                                <option value="Safari">
+                            </datalist>
+                    </div>
+                    <div class="cont_cadastrar">
+                        <button class="cadastrar">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="lista_jogadores">
+                <h2>Lista de Jogadores</h2>
+                <div class="tabela">
+                    <table>
+                        <tr>
+                            <th>Nome do Jogador</th>
+                            <th class="border_none">Equipe</th>
+                        </tr>
+                        <tr>
+                            <td>ismot</td>
+                            <td>τελεστές</td>
+                        </tr>
+                        <tr>
+                            <td>noitada</td>
+                            <td>games badaras</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>          
+        </section>
+    </main>
+
+    <footer>
+        <iframe src="footer.html" width="100%" height="100%" frameborder="0"></iframe>
+    </footer>
+</body>
+</html>
