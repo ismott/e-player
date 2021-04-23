@@ -596,7 +596,7 @@ footer{
     color: white;
 }
 
-.equipe input{
+.equipe select{
     height: 30px;
     width: 575px;
     background-color: #ABABAB;
