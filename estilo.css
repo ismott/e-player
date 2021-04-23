@@ -17,6 +17,10 @@ header{
     width: 100%;
 }
 
+#frame_header{
+    overflow-y: hidden;
+}
+
 .conteiner{
     width: 1200px;
     margin: 0 auto;
@@ -27,7 +31,8 @@ header{
     display: flex;
     justify-content: flex-end;
     justify-content: space-evenly;
-    width: 1500px;    
+    width: 1500px;
+    height: 100%;    
     align-items: center;
     /* background-color: chocolate; */
 } 
@@ -116,15 +121,17 @@ main{
     height: 83px;
 }
 
+.inscreva_se:hover{
+    background-color: #002679;
+    color: #929292;
+}
+
+
 .e_players a{
     width: 800px;
 
 }
 
-.inscreva_se:hover{
-    background-color: #002679;
-    color: #929292;
-}
 
 /* ------------------------------section-logo-jogos-------------------------- */
 
